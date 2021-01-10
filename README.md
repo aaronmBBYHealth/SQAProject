@@ -12,14 +12,14 @@ QA team here at BBY Health.
 
 The exercise consists of several different parts designed to showcase your
 problem-solving and solution-implementation talents. There is not a single
-correct answer; this is *not* an exam. We simply want to see how you approach a
+correct answer; this is *not* an exam. We s* This exercise should not take you more than two hours to complete. If
+your solution is taking longer, that's okay—be honest and let us know how long
+it took and why you think it took that long.
+* Be as thorough as you wish.
+* All exercises are to be performed as if you were on the job.imply want to see how you approach a
 business problem and the steps you take to solve it.
 
-* This exercise should not take you more than two hours to complete. If
-  your solution is taking longer, that's okay—be honest and let us know how long
-  it took and why you think it took that long.
-* Be as thorough as you wish.
-* All exercises are to be performed as if you were on the job.
+
 * You may submit your response in one of the following ways:
   * Package an archive (ZIP, tarball, etc.) of your files and deliver it to
     your contact.

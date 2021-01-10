@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "10f86dd5-9d01-4450-9ee1-89b218dfd4f9",
+		"name": "GreatCall API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GreatCall Products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5764c94f-ecaf-4750-9f7f-86338812e29c",
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.greatcall.com/stores/Api/Products",
+					"protocol": "https",
+					"host": [
+						"www",
+						"greatcall",
+						"com"
+					],
+					"path": [
+						"stores",
+						"Api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

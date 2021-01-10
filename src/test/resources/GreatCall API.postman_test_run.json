@@ -1,0 +1,110 @@
+{
+	"id": "7bf298f4-daef-40a1-9a26-0a1b9202bfa7",
+	"name": "GreatCall API",
+	"allTests": [],
+	"timestamp": "2021-01-10T07:36:06.782Z",
+	"collection_id": "03bfd50e-f647-4036-bae8-40334cf12412",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 5,
+	"collection": {
+		"id": "03bfd50e-f647-4036-bae8-40334cf12412",
+		"name": "GreatCall API",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"b0980c9e-204d-4f51-9ddf-0cf8c15e17bc"
+		],
+		"folders_order": [],
+		"owner": "14131896",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GreatCall Products",
+			"id": "b0980c9e-204d-4f51-9ddf-0cf8c15e17bc",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 4,
+					"fail": 1
+				}
+			},
+			"times": [
+				"214",
+				"74",
+				"69",
+				"64",
+				"64"
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": false
+				},
+				{
+					"Response time is less than 200ms": true
+				},
+				{
+					"Response time is less than 200ms": true
+				},
+				{
+					"Response time is less than 200ms": true
+				},
+				{
+					"Response time is less than 200ms": true
+				}
+			],
+			"time": "64",
+			"totalRequestTime": 485,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 4,
+	"totalFail": 1,
+	"totalTime": 485,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GreatCall Products",
+			"id": "b0980c9e-204d-4f51-9ddf-0cf8c15e17bc",
+			"url": "https://www.greatcall.com/stores/Api/Products",
+			"time": "64",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 4,
+					"fail": 1
+				}
+			}
+		}
+	],
+	"synced": false
+}
