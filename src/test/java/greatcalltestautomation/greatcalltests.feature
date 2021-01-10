@@ -11,16 +11,26 @@ Feature: GreatCall UI and API Test Automation Demo
   #  * url 'https://www.greatcall.com'
 
   Scenario: Goal: provide code or pseudocode to click the Lively flip "Learn More" button
-    * configure driver = { type: 'chrome', showDriverLog: true }
-    Given driver 'https://www.greatcall.com/'
+    Given configure driver = { type: 'chrome', showDriverLog: true }
+    And driver 'https://www.greatcall.com/'
     And waitFor("{^}The all-new flip phone")
-    When submit().click("#Contentplaceholder1_C191_Col01 > div > div > a.btn.btn-primary.product-spotlight-btn.hidden-xxs.hidden-xs.hidden-md.hidden-lg.hidden-sticky")
+    And maximize()
+    #Below is delay just to view the page when it is running
+    And delay(2000)
+    And screenshot()
+    # Couple of examples below on how elements can be identified
+    #When submit().click("#Contentplaceholder1_C191_Col01 > div > div > a.btn.btn-primary.product-spotlight-btn.hidden-xxs.hidden-xs.hidden-md.hidden-lg.hidden-sticky")
+    When submit().click("div[data-product-name='Lively Flip'] a[role='button']")
     Then waitForUrl('https://www.greatcall.com/phones/lively-flip-cell-phone-for-seniors')
+    And screenshot()
 
   Scenario: Click on "Learn More" for lively flipGoal: provide code or pseudocode to click the "Learn More" button that appears at the bottom of the page
     Given driver 'https://www.greatcall.com/'
     And waitFor("{^}The all-new flip phone")
-    When submit().click("#Contentplaceholder1_C030_Col00 > a")
+     # Couple of examples below on how elements can be identified
+    #When submit().click("#Contentplaceholder1_C030_Col00 > a")
+    * def elements = locateAll('{a}Learn More')
+    * elements[karate.sizeOf(elements) - 1].click()
     # * delay(5000)
     Then waitForUrl('https://www.greatcall.com/support')
 
