@@ -54,7 +54,7 @@ of your work style.
 
 ### Implementation screenshot
 
-![new customer edit screenshot](new-customer-screenshot.png "New user screenshot")
+![new customer edit screenshot](new-customer-screenshot.PNG "New user screenshot")
 
 ### User story 1:
 
