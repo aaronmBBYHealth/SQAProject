@@ -1,0 +1,15 @@
+Run Test from Cypress:
+
+cd "tests/UI tests"
+
+UI: ./node_modules/.bin/cypress open
+CLI: ./node_modules/.bin/cypress run
+
+
+
+Explain why you chose the language and framework that you did
+- Cypress automatically initialize the browser and doesn't require Webdriver initialization as required when using selenium
+- Node package manager enables easy library management
+- JavaScript easy to write script and light weight unlike high level programming languages with overhead
+- Support UI and CLI for test run
+- Multiple browser supported

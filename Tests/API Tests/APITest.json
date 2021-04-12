@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "3385d52b-d889-4d72-aa3a-2d8b6eb4d71f",
+		"name": "GreatCallCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check 200 Status\",()=> {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Check Response Time\", () => {",
+							"        pm.expect(pm.response.responseTime).to.be.below(200);",
+							"})",
+							"",
+							"pm.test(\"Validate An Array\", () => {",
+							"    let jsonData = pm.response.json()",
+							"    pm.expect(jsonData[0].Name).to.eql(\"Lively Flip\");",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.greatcall.com/stores/Api/Products",
+					"protocol": "https",
+					"host": [
+						"www",
+						"greatcall",
+						"com"
+					],
+					"path": [
+						"stores",
+						"Api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
