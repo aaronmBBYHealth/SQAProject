@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBY_Automation", "BBY_Automation\BBY_Automation.csproj", "{6DCE0589-D94E-434C-A9EB-E684AB9E7CF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DCE0589-D94E-434C-A9EB-E684AB9E7CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCE0589-D94E-434C-A9EB-E684AB9E7CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCE0589-D94E-434C-A9EB-E684AB9E7CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCE0589-D94E-434C-A9EB-E684AB9E7CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C67A9315-A6AF-4B57-9B18-6C15B8489700}
+	EndGlobalSection
+EndGlobal
