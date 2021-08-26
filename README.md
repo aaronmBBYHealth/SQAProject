@@ -2,11 +2,8 @@
 
 ## Overview
 
-Here at BBY Health, we prefer to have a good idea of a candidate's technical
-experience and analysis skills before proceeding with portions of our recruiting
-process.  We believe that the exercises below will illustrate a candidate's
-approach to working with technologies and methodologies commonly used in our
-QA team here at BBY Health.
+Here at BBY Health, we prefer to have a good idea of a candidate's technical experience and analysis skills before proceeding with portions of our recruiting process. We believe that the exercises below will illustrate a candidate's approach to working with technologies and methodologies commonly used in our QA team here at BBY Health.
+
 
 ## Guidelines
 
@@ -30,7 +27,7 @@ business problem and the steps you take to solve it.
 
 Below you will find two key inputs for this exercise:
 
-* A screenshot of the greatcall.com new customer page, which a customer
+* A screenshot of the lively.com new customer page, which a customer
   would use when purchasing a new device
 * Some user stories and acceptance criteria for the new customer
 
@@ -109,16 +106,16 @@ As a customer, I would like my address information previously entered available 
 
 ## Exercise 2: Test automation
 
-You’ve been tasked with writing automated tests that check the behavior of the greatcall.com
+You’ve been tasked with writing automated tests that check the behavior of the lively.com
 ecommerce site home page. There’s a "Learn More" button on
-<https://www.greatcall.com/> that you’ll need to click.
+<https://www.lively.com/> that you’ll need to click.
 
 ### Part 1: Locating the "Learn More" button
 
 **Goal:** provide code or pseudocode to click the Lively flip "Learn More" button
 
 Provide code for an automated test that clicks Lively flip "Learn More"
-button on <https://www.greatcall.com>.  The code provided can be for an
+button on <https://www.lively.com/>.  The code provided can be for an
 automated test using the tool and language of your choice (Selenium, etc.).
 
 A complete submission will:
@@ -138,7 +135,7 @@ but working code is preferred.
 **Goal:** provide code or pseudocode to click the "Learn More" button that
 appears at the bottom of the page
 
-Similarly, provide code for an automated test that clicks the bottommost "Learn More" button on <https://www.greatcall.com/>.  As in the exercise above,
+Similarly, provide code for an automated test that clicks the bottommost "Learn More" button on <https://www.lively.com/>.  As in the exercise above,
 the code provided can be for an automated test using the took and language of
 your choice (Selenium, etc.).
 
@@ -155,10 +152,10 @@ A complete submission will:
 
 **Goal:** write API tests
 
-Greatcall uses Swagger/Open API/Postman for API testing. Part of this work is writing
-API tests. For this section we woudld like you to use (https://www.greatcall.com/stores/Api/Products). The concept should be familiar if you’ve written API tests.
+Lively uses Swagger/Open API/Postman for API testing. Part of this work is writing
+API tests. For this section we woudld like you to use https://www.lively.com/stores/Api/Products. The concept should be familiar if you’ve written API tests.
 
-1. Write a test that will verify the repsonse is under 200ms.
+1. Write a test that will verify the response is under 200ms.
 2. Write a test to verify status 200 is recieved.
 3. Please add your recommended test here? 
 
